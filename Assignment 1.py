@@ -124,4 +124,4 @@ print("\t" "\t" "\t" "\t", "HST 13% ","\t" "\t",("${:.2f}").format(discount() * 
 print("\t" "\t" "\t" "\t" " " "Total",  " \t"  "\t", ("${:.2f}").format(discount() * 1.13), "CAD") #this prints the grand total of the recepit
 print("-" *75) #this creates the format of my recepit and is the last line 
 
-run = False #this will stpo the while loop
+run = False #this will stop the while loop
