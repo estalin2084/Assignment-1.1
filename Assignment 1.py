@@ -1,20 +1,11 @@
 # Name: Arnold Store II.py
 # Author: Estalin Peña
 # Date Created: october 06, 2022
-# Date Last Modified: october 06, 2022
+# Date Last Modified: october 11, 2022
 # Purpose: To take the order of the clients and print the receipt
-
-from re import T
-
-
-print("")
-
-
 
 def total( ): #This funcion calculates the total of price and meal quantity
     return price * float(meal_quantity)
-
-
 
 def subtotal(): #this function ses a list to print the subtotal
     print(list(order.keys())[0] ,"$",price , "*" , list(order.values())[0] , "=" ,"$",total())
