@@ -7,7 +7,7 @@
 def total( ): #This funcion calculates the total of price and meal quantity
     return price * float(meal_quantity)
 
-def subtotal(): #this function ses a list to print the subtotal
+def subtotal(): #this function sets a list to print the subtotal
     print(list(order.keys())[0] ,"$",price , "*" , list(order.values())[0] , "=" ,"$",total())
 
 def discount(): #this function calculates all the discounts and returns the percentages and quantiy in money.
